@@ -7,7 +7,7 @@ interface IButtonLogin{
 
 export const ButtonLogin = ({onClick}:IButtonLogin) => {
     return (
-            <Button onClick={onClick} colorScheme='pink' size='sm' width='100%' marginTop='5px'>
+            <Button type="submit" onClick={onClick} colorScheme='pink' size='sm' width='100%' marginTop='5px'>
               enviar
             </Button>
     )
