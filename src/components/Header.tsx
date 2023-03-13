@@ -1,23 +1,11 @@
 import {
-  Flex,
-  Link,
-  ListItem,
-  Spacer,
-  UnorderedList
+  Center
 } from '@chakra-ui/react';
 
 export const Header  = () => {
   return(
-    <Flex color="#fff">
-      <h1>DioBank</h1>
-      <Spacer />
-      <UnorderedList>
-        <Flex gap="10px">
-          <ListItem listStyleType="none"><Link>Login</Link></ListItem>
-          <ListItem listStyleType="none"><Link>Footer</Link></ListItem>
-        </Flex>
-        
-      </UnorderedList>
-    </Flex>
+      <Center color="#fff">
+        <h1>DioBank</h1>
+      </Center>
   )
 }
